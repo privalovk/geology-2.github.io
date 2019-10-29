@@ -35,4 +35,9 @@ body {
 	background-repeat : round;
 	font-family       : "Bodoni";
 	font-size         : 1em;
+}
 
+article {
+	width        : 96%;
+	padding-left : 2%;
+}
