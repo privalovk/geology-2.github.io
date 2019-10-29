@@ -3,3 +3,17 @@
 	margin  : 0px;
 	padding : 0px;
 }
+html {
+	height    : 100%;
+	font-size : 20px;
+}
+footer,
+header {
+	width         : 97%;
+	float         : left;
+	padding       : 1%;
+	border-radius : 5px;
+}
+header {
+	background-image : url(img/header.jpg);
+}
