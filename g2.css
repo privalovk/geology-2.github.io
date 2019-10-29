@@ -9,10 +9,10 @@ html {
 }
 footer,
 header {
-	width         : 90%;
+	width         : 98%;
 	float         : left;
 	padding       : 1%;
-	border-radius : 5px;
+	border-radius : 7px;
 }
 header {
 	background-image : url(img/header1.jpg);
@@ -40,4 +40,9 @@ body {
 article {
 	width        : 96%;
 	padding-left : 2%;
+}
+
+center {
+	margin  : 5px;
+	padding : 5px;
 }
