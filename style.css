@@ -18,8 +18,10 @@ header
 header h1
 {
 	text-align:center;
-	font-size:56px;
-	color:#4325FF;
+	color: white;
+	font-size: 50px;
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E2E2 , 0 0 35px #16E2E2 , 0 0 40px #16E2E2 , 0 0 50px #16E2E2 , 0 0 75px #16E2E2 ;
+	
 	
 }
 
