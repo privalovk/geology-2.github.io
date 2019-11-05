@@ -1,0 +1,166 @@
+body
+{
+	min-height:100%;
+	min-width:100%;
+	margin:0;
+	padding:0;
+	float: left;
+}
+header
+{
+	float: fixed;
+	background:url(i.jpg),rgba(255,255,255,0.1);
+	background-blend-mode: color;
+	padding:3em;
+	border:solid #FF6D68 0.1em;
+	border-radius:0.5em;
+}
+header h1
+{
+	text-align:center;
+	font-size:56px;
+	color:#4325FF;
+	
+}
+
+h2
+{
+	text-align:center;
+	border-bottom:solid #8726FF;
+	border-radius:0.1em;
+	color:#FF0061;
+	font-size:30px;
+}
+article
+{
+	width: 30%;
+	margin:10px;
+	background-color:rgba(0,221,255,0.6);
+	border:solid silver 2px;
+	border-radius:10px;
+	float:left;
+}
+h3
+{
+	font-size:25px;
+	color:rgba(147,0,155,1);
+	
+}
+img
+{
+	width:auto\9;
+	max-width:90%;
+	height:auto;
+	border-radius:20px;
+	float:left;
+	margin:5px;
+}
+p
+{
+	text-indent:20px;
+	font-size:25px;
+	padding:2px;
+	color:rgba(0,38,255,1);
+}
+a
+{
+	text-decoration:none;
+	color:#8700FF;
+}
+h3
+{
+	border-bottom:solid 2px #00CBFF;
+	text-align:center;
+}
+ul, ol
+{
+	color:rgba(0,38,255,1);
+	font-size:22px;
+}
+#a_1
+{
+	font-size:20px;
+	position:absolute;
+	border:2px solid silver;
+	background-color:rgba(255,255,255,1);
+	color:FF0000;
+}
+h4
+{
+	color:#8300FF;
+	font-size:20px;
+}
+div#d1
+{
+	margin-left: 1%;
+	margin-top: 1em;
+	padding-bottom: 20em;
+	background :url(background.png), rgba(255,255,255,0.3);
+	background-blend-mode: color;
+	background-repeat:repeat-y;
+	min-height: 100%;
+	float:left;
+	border:0.2em solid silver; 
+	border-radius: 10px;
+	min-width: 99%;
+}
+
+div#d2
+{
+	margin-left: 1%;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	background :url(background.png), rgba(255,255,255,0.8);
+	background-blend-mode: color;
+	background-repeat:repeat-y;
+	min-height: 10%;
+	float:left;
+	border:0.2em solid silver; 
+	border-radius: 10px;
+	min-width: 98%;
+}
+
+img:hover{
+ -webkit-transform: scale(1.5);
+ -moz-transform: scale(1.5);
+ -o-transform: scale(1.5);
+ opacity:0.95;
+ }
+ img {
+	opacity: 0.5;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ div.r{
+	margin: 2%;
+	padding-bottom: 2em;
+	min-height: 10%;
+	float:left;
+	border:0.3em solid silver; 
+	border-radius: 10px;
+	min-width: 95%;
+	 background:#778899, opacity:0.8;
+	 
+	 
+ }
+ img.i1
+ {
+	 max-height:40em;
+	 opacity: 0.9;
+	 
+	 
+	 
+	 
+ }
+ img.i1:hover{
+ -webkit-transform: scale(1.4);
+ -moz-transform: scale(1.4);
+ -o-transform: scale(1.4);
+ opacity:1;
+ }
+ div.desc{
+	 float: left;
+	 max-width: 58%;
+	 
+ }
