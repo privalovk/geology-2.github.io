@@ -1,0 +1,101 @@
+::selection
+{
+	background:#3CE057 ;
+	
+	}
+
+body
+{
+	min-height:100%;
+	min-width:100%;
+	margin:0;
+	padding:0;
+	float: left;
+	background-image:url(soil.jpg)
+}
+img.i{
+	min-width:98%;
+	max-width:99%;
+	max-height:37em;
+	float:left;
+}
+article
+{
+	min-width:43%;
+	max-width:43%;
+	min-height:36em;
+	padding:1%;
+	margin:2%;
+	background:rgba(117, 128, 104, 0.6);
+	border: solid silver 5px;
+	border-radius:10px;
+	float:left;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+ 
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	
+	color: white;
+	font-size: 50px;
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E276 , 0 0 35px #16E276 , 0 0 40px #16E276 , 0 0 50px #16E276 , 0 0 75px #16E276 ;
+	
+}
+ 
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    -webkit-animation: scroll 10s infinite linear;
+    -moz-animation: scroll 10s infinite linear;
+    animation: scroll 10s infinite linear;
+}
+img
+{
+	border-radius:2em;
+	
+}
+img#razrez:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ opacity:0.95;
+ }
+ img#razrez {
+	opacity: 0.5;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
