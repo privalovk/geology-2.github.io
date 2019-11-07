@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta http-equiv="Content-Tipe" content="text/html; charset=UTF-8"/>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="icon" href="путь_к_иконке/favicon.ico" type="image/x-icon">
+		<title>Тест по горным породам</title>
+		<script href="test.arr.js"></script>
+		<script type="text/javascript">
+		var jpg=".jpg";
+		var mark_ = 0;
+		
+		var R0,R1,R2,R3,R4;
+		
+		function getRandomInt(min, max)
+		{
+		  return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		function _start()
+		{
+		let img=[document.getElementById("img1"),document.getElementById("img2"),document.getElementById("img3"),document.getElementById("img4"),document.getElementById("img5")];
+		let N=[document.getElementById("N1"),document.getElementById("N2"),document.getElementById("N3"),document.getElementById("N4"),document.getElementById("N5")];
+		let m = ["андезит","базальт","вулканический_песок_и_пепел","габбро","гранит","диорит","дунит","лабрадорит","лапилли","нефелиновый_сиенит","обсидиан","пегматит","пемза","перидотит","пироксенит","риолит","сиенит","трахит","туф"];
+		let o = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",]
+		var r0 = m[getRandomInt(0, m.length)];
+		var r1 = m[getRandomInt(0, m.length)];
+		var r2 = o[getRandomInt(0, o.length)];
+		var r3 = o[getRandomInt(0, o.length)];
+		R0=r0;
+		R1=r1;
+		
+		img[0].src = "s1/" + r0 + jpg;
+		img[1].src = "s1/" + r1 + jpg;
+		
+		}
+		function _check()
+		{
+		let In = [document.getElementById("in1"),document.getElementById("in2"),document.getElementById("in3"),document.getElementById("in4"),document.getElementById("in5")];
+		if(R0 == In[0].value)mark_ ++;
+		if(R1 == In[1].value)mark_ ++;
+		if(R2 == In[2].value)mark_ ++;
+		if(R3 == In[3].value)mark_ ++;
+		if(R4 == In[4].value)mark_ ++;
+		document.getElementById("M").innerHTML = ("your mark is: " + mark_);
+		}
+
+
+		</script>
+		
+		
+		
+	<body>
+		<header>
+			<h1>тест</h1>
+			<form>
+				<input type="button" onclick="_start()" class="button" id="start"  value="start">
+			</form>
+			<h1 id="M"></h1>
+		</header>
+	
+		
+		<div id="d1">
+			<article>	
+					<center><h3 id="N1"></h3></center>
+					<p><img id="img1" src="box.jpg"/></p>
+					<form>
+						<input class="in" id="in1" type = "text" size="40">
+						<center><input type="button" onclick="_check()" class="button" id="button1"  value="check"></center>
+					</form>
+			</article>
+			<article>	
+					<center><h3 id="N2"></h3></center>
+					<p><img id="img2" src="box.jpg"/></p>
+					<form>
+						<input class="in" id="in2" type = "text" size="40">
+						<center><input type="button" onclick="_check()" class="button" id="button2"  value="check"></center>
+					</form>
+			</article>
+			<article>	
+					<center><h3 id="N3"></h3></center>
+					<p><img id="img3" src="box.jpg"/></p>
+					<form>
+						<input class="in" id="in3" type = "text" size="40">
+						<center><input type="button" onclick="_check()" class="button" id="button3"  value="check"></center>
+					</form>
+			</article>
+			<article>	
+					<center><h3 id="N4"></h3></center>
+					<p><img id="img4" src="box.jpg"/></p>
+					<form>
+						<input class="in" id="in4" type = "text" size="40">
+						<center><input type="button" onclick="_check()" class="button" id="button4"  value="check"></center>
+					</form>
+			</article>
+			<article>	
+					<center><h3 id="N5"></h3></center>
+					<p><img id="img5" src="box.jpg"/></p>
+					<form>
+						<input class="in" id="in5" type = "text" size="40">
+						<center><input type="button" onclick="_check()" class="button" id="button5"  value="check"></center>
+					</form>
+			</article>
+		</div>
+		
+	</body>
+</html>
