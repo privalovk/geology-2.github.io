@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+::selection
+{
+	background: #3CE057;
+	
+	}
+
 body
 {
 	min-height:100%;
@@ -21,7 +29,6 @@ header h1
 	color: white;
 	font-size: 50px;
   text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E2E2 , 0 0 35px #16E2E2 , 0 0 40px #16E2E2 , 0 0 50px #16E2E2 , 0 0 75px #16E2E2 ;
-	
 	
 }
 
@@ -163,6 +170,6 @@ img:hover{
  }
  div.desc{
 	 float: left;
-	 
+	 max-width: 58%;
 	 
  }
