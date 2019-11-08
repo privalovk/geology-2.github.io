@@ -5,7 +5,7 @@
 		
 		<meta http-equiv="Content-Tipe" content="text/html; charset=UTF-8"/>
 		<link href="style.css" rel="stylesheet" type="text/css"/>
-		<link rel="icon" href="путь_к_иконке/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../favicon.ico" type="image/x-icon">
 		<title>Тест по горным породам</title>
 		<script href="test.arr.js"></script>
 		<script type="text/javascript">
@@ -24,16 +24,24 @@
 		let img=[document.getElementById("img1"),document.getElementById("img2"),document.getElementById("img3"),document.getElementById("img4"),document.getElementById("img5")];
 		let N=[document.getElementById("N1"),document.getElementById("N2"),document.getElementById("N3"),document.getElementById("N4"),document.getElementById("N5")];
 		let m = ["андезит","базальт","вулканический_песок_и_пепел","габбро","гранит","диорит","дунит","лабрадорит","лапилли","нефелиновый_сиенит","обсидиан","пегматит","пемза","перидотит","пироксенит","риолит","сиенит","трахит","туф"];
-		let o = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",]
+		let o = ["каменная_соль","озёрная_руда", "гипс", "боксит","торф","бурый_уголь","каменный_уголь","антрацит","известняк","известняк_ракушечный","известняк_коралловый","туф_известковый","мергель", "доломит","сидерит","трепел","опока","кремень", "фосфорит","конгломерат","брекчия", "галька","гравий","щебень", "гравелит","песок","песчаник","алевролит", "лёсс"];
+		let mm = ["гнейс","кварцит","тальковые_сланцы","мрамор","глинистый_сланец","филлит","хлоритовый_сланец","слюдяной_сланец","амфиболит"];
 		var r0 = m[getRandomInt(0, m.length)];
 		var r1 = m[getRandomInt(0, m.length)];
 		var r2 = o[getRandomInt(0, o.length)];
 		var r3 = o[getRandomInt(0, o.length)];
+		var r4 = mm[getRandomInt(0, mm.length)];
 		R0=r0;
 		R1=r1;
+		R2=r2;
+		R3=r3;
+		R4=r4;
 		
 		img[0].src = "s1/" + r0 + jpg;
 		img[1].src = "s1/" + r1 + jpg;
+		img[2].src = "s2/" + r2 + jpg;
+		img[3].src = "s2/" + r3 + jpg;
+		img[4].src = "s3/" + r4 + jpg;
 		
 		}
 		function _check()
@@ -44,7 +52,7 @@
 		if(R2 == In[2].value)mark_ ++;
 		if(R3 == In[3].value)mark_ ++;
 		if(R4 == In[4].value)mark_ ++;
-		document.getElementById("M").innerHTML = ("your mark is: " + mark_);
+		document.getElementById("M").innerHTML = ("your score is: " + mark_);
 		
 		document.getElementById("N0").innerHTML = R0;
 		document.getElementById("N1").innerHTML = R1;
@@ -73,7 +81,7 @@
 		<div id="d1">
 			<article>	
 					<center><h3 id="N0"></h3></center>
-					<p><img id="img1" src="box.jpg"/></p>
+					<p><img class = "test_img1" id="img1" src="box.jpg"/></p>
 					<form>
 						<input class="in" id="in1" type = "text" size="40">
 						<center><input type="button" onclick="_check()" class="button" id="button1"  value="check"></center>
@@ -81,7 +89,7 @@
 			</article>
 			<article>	
 					<center><h3 id="N1"></h3></center>
-					<p><img id="img2" src="box.jpg"/></p>
+					<p><img class = "test_img1" id="img2" src="box.jpg"/></p>
 					<form>
 						<input class="in" id="in2" type = "text" size="40">
 						<center><input type="button" onclick="_check()" class="button" id="button2"  value="check"></center>
@@ -89,15 +97,17 @@
 			</article>
 			<article>	
 					<center><h3 id="N2"></h3></center>
-					<p><img id="img3" src="box.jpg"/></p>
+					<p><img class = "test_img1" id="img3" src="box.jpg"/></p>
 					<form>
 						<input class="in" id="in3" type = "text" size="40">
 						<center><input type="button" onclick="_check()" class="button" id="button3"  value="check"></center>
 					</form>
 			</article>
+			</div>
+			<div id="d1">
 			<article>	
 					<center><h3 id="N3"></h3></center>
-					<p><img id="img4" src="box.jpg"/></p>
+					<p><img class = "test_img1" id="img4" src="box.jpg"/></p>
 					<form>
 						<input class="in" id="in4" type = "text" size="40">
 						<center><input type="button" onclick="_check()" class="button" id="button4"  value="check"></center>
@@ -105,7 +115,7 @@
 			</article>
 			<article>	
 					<center><h3 id="N4"></h3></center>
-					<p><img id="img5" src="box.jpg"/></p>
+					<p><img class = "test_img1" id="img5" src="box.jpg"/></p>
 					<form>
 						<input class="in" id="in5" type = "text" size="40">
 						<center><input type="button" onclick="_check()" class="button" id="button5"  value="check"></center>
