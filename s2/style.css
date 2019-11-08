@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+::selection
+{
+	background: #3CE057;
+	
+	}
+
 body
 {
 	min-height:100%;
@@ -5,6 +13,7 @@ body
 	margin:0;
 	padding:0;
 	float: left;
+	background-image:url(soil.jpg);
 }
 header
 {
@@ -21,6 +30,7 @@ header h1
 	color: white;
 	font-size: 50px;
   text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E2E2 , 0 0 35px #16E2E2 , 0 0 40px #16E2E2 , 0 0 50px #16E2E2 , 0 0 75px #16E2E2 ;
+	
 }
 
 h2
@@ -34,6 +44,7 @@ h2
 article
 {
 	width: 30%;
+	high:25em;
 	margin:10px;
 	background-color:rgba(0,221,255,0.6);
 	border:solid silver 2px;
@@ -127,7 +138,7 @@ img:hover{
  opacity:0.95;
  }
  img {
-	opacity: 0.5;
+	opacity: 0.6;
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
@@ -147,12 +158,7 @@ img:hover{
  img.i1
  {
 	 max-height:40em;
-	 max-width: 45%;
 	 opacity: 0.9;
-	 
-	 
-	 
-	 
  }
  img.i1:hover{
  -webkit-transform: scale(1.4);
@@ -162,6 +168,41 @@ img:hover{
  }
  div.desc{
 	 float: left;
-	 max-width: 50%;
+	 max-width: 58%;
 	 
+ }
+ 
+ input.in
+ {
+	 margin:0.4em;
+	 padding:0.4em;
+	 border-radius:1em;
+	 float:left;
+	 font-size:16px;
+	 width:70%;
+	 text-align:center;
+ }
+ input.button
+ {
+	 margin:0.4em;
+	 padding:0.4em;
+	 border-radius:1em;	 
+	 float:left;
+	 font-size:16px;
+	 
+ }
+ form{ float:left;}
+
+ img.test_img1
+ {
+	 	opacity: 0.7;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+  img.test_img1:hover{
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+ opacity:1;
  }
