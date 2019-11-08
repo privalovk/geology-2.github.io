@@ -13,6 +13,7 @@ body
 	margin:0;
 	padding:0;
 	float: left;
+	background-image:url(soil.jpg);
 }
 header
 {
@@ -43,6 +44,7 @@ h2
 article
 {
 	width: 30%;
+	high:25em;
 	margin:10px;
 	background-color:rgba(0,221,255,0.6);
 	border:solid silver 2px;
@@ -136,7 +138,7 @@ img:hover{
  opacity:0.95;
  }
  img {
-	opacity: 0.5;
+	opacity: 0.6;
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
@@ -157,10 +159,6 @@ img:hover{
  {
 	 max-height:40em;
 	 opacity: 0.9;
-	 
-	 
-	 
-	 
  }
  img.i1:hover{
  -webkit-transform: scale(1.4);
@@ -186,7 +184,6 @@ img:hover{
  }
  input.button
  {
-	 
 	 margin:0.4em;
 	 padding:0.4em;
 	 border-radius:1em;	 
@@ -194,8 +191,18 @@ img:hover{
 	 font-size:16px;
 	 
  }
- form
+ form{ float:left;}
+
+ img.test_img1
  {
-	 float:left;
-	 
+	 	opacity: 0.7;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+  img.test_img1:hover{
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+ opacity:1;
  }
