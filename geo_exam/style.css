@@ -55,7 +55,7 @@ div.main_d
 p
 {
 	color:rgba(50,50,50,1);
-	font-size:25px;
+	font-size:15px;
 	text-indent: 30px;
 	font-style: italic;
 	text-shadow: 0.4px 0.4px 0.4px rgba(0,0,0,1);
@@ -67,6 +67,6 @@ h2
 	border-radius:0.1em;
 	color:#FFFFEE;
 	text-shadow: 1px 1px 1px rgba(0,0,0,1), 5px 5px 4px rgba(0,0,0,1);
-	font-size:30px;
+	font-size:20px;
 	text-shadow:
 }
