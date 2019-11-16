@@ -58,6 +58,26 @@ div.main_d
 	
 	overflow:auto;
 }
+div#geology
+{
+	background:url(stafeev.jpg),rgba(255,254,204,0.7);
+	background-blend-mode: color;
+}
+div#chem
+{
+	background:url(chem.jpg),rgba(255,254,204,0.7);
+	background-blend-mode: color;
+}
+div#botany
+{
+	background:url(botany.jpg),rgba(255,254,204,0.7);
+	background-blend-mode: color;
+}
+div#soil
+{
+	background:url(soil.png),rgba(255,254,204,0.7);
+	background-blend-mode: color;
+}
 p, a
 {
 	

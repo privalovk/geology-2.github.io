@@ -17,12 +17,15 @@ body
 }
 header
 {
-	float: fixed;
+	z-index: 1000;
+	position:fixed;
 	background:url(i.jpg),rgba(255,255,255,0.1);
 	background-blend-mode: color;
-	padding:3em;
+	padding:-1em;
 	border:solid #FF6D68 0.1em;
 	border-radius:0.5em;
+	width:100%;
+	height:8em;
 }
 header h1
 {
@@ -30,7 +33,8 @@ header h1
 	color: white;
 	font-size: 50px;
   text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E2E2 , 0 0 35px #16E2E2 , 0 0 40px #16E2E2 , 0 0 50px #16E2E2 , 0 0 75px #16E2E2 ;
-	
+	position:relative;
+	width:100%;
 }
 
 h2
@@ -103,6 +107,7 @@ h4
 }
 div#d1
 {
+	padding-top:8em;
 	margin-left: 1%;
 	margin-top: 1em;
 	padding-bottom: 20em;
