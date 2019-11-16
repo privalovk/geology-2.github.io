@@ -52,10 +52,6 @@ div.main_d
 	
 	overflow:auto;
 }
-@media handheld div.main_d
-{
-	margin-bottom:8em;	
-}
 p
 {
 	color:rgba(50,50,50,1);
@@ -64,9 +60,10 @@ p
 	font-style: italic;
 	text-shadow: 0.4px 0.4px 0.4px rgba(0,0,0,1);
 }
-@media handheld p
+@media (max-width: 1023px) and (min-width: 300px)
 {
-	font-size:0.8em;
+	div.main_d{max-height:70em; margin-bottom:9em;}
+	p{font-size:0.7em;}
 }
 h2
 {
