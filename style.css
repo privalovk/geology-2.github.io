@@ -38,7 +38,7 @@ h2
 	text-align:center;
 	border-bottom:solid #8726FF;
 	border-radius:0.1em;
-	color:#FF0061;
+	color:#5555BB;
 	font-size:30px;
 }
 article
@@ -46,7 +46,7 @@ article
 	width: 30%;
 	high:25em;
 	margin:10px;
-	background-color:rgba(0,221,255,0.6);
+	background: rgba(255,254,204,0.8);
 	border:solid silver 2px;
 	border-radius:10px;
 	float:left;
@@ -54,7 +54,7 @@ article
 h3
 {
 	font-size:25px;
-	color:rgba(147,0,155,1);
+	color:#5555BB;
 	
 }
 img
@@ -132,9 +132,9 @@ div#d2
 }
 
 img:hover{
- -webkit-transform: scale(1.5);
- -moz-transform: scale(1.5);
- -o-transform: scale(1.5);
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
  opacity:0.95;
  }
  img {
@@ -161,9 +161,9 @@ img:hover{
 	 opacity: 0.9;
  }
  img.i1:hover{
- -webkit-transform: scale(1.4);
- -moz-transform: scale(1.4);
- -o-transform: scale(1.4);
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
  opacity:1;
  }
  div.desc{

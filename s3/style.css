@@ -13,6 +13,7 @@ body
 	margin:0;
 	padding:0;
 	float: left;
+	background-image:url(soil.jpg);
 }
 header
 {
@@ -31,6 +32,8 @@ header h1
   text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #16E2E2 , 0 0 35px #16E2E2 , 0 0 40px #16E2E2 , 0 0 50px #16E2E2 , 0 0 75px #16E2E2 ;
 	
 }
+h1{color:#5555BB;text-shadow: 1px 1px 1px rgba(0,0,0,1), 5px 5px 6px rgba(0,0,0,1);}
+li{color:rgba(139,120,152,1);text-shadow: 0.3px 0.3px 0.2px rgba(0,0,0,1);}
 
 h2
 {
@@ -43,6 +46,7 @@ h2
 article
 {
 	width: 30%;
+	high:25em;
 	margin:10px;
 	background-color:rgba(0,221,255,0.6);
 	border:solid silver 2px;
@@ -58,7 +62,7 @@ h3
 img
 {
 	width:auto\9;
-	max-width:90%;
+	max-width:40%;
 	height:auto;
 	border-radius:20px;
 	float:left;
@@ -69,7 +73,8 @@ p
 	text-indent:20px;
 	font-size:25px;
 	padding:2px;
-	color:rgba(0,38,255,1);
+	color:rgba(139,120,152,1);
+	text-shadow: 0.3px 0.3px 0.2px rgba(0,0,0,1);
 }
 a
 {
@@ -119,7 +124,7 @@ div#d2
 	margin-left: 1%;
 	margin-top: 1em;
 	padding-bottom: 1em;
-	background :url(background.png), rgba(255,255,255,0.8);
+	background :url(background.png), rgba(255,254,204,0.8);
 	background-blend-mode: color;
 	background-repeat:repeat-y;
 	min-height: 10%;
@@ -136,7 +141,7 @@ img:hover{
  opacity:0.95;
  }
  img {
-	opacity: 0.5;
+	opacity: 0.6;
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
@@ -157,10 +162,6 @@ img:hover{
  {
 	 max-height:40em;
 	 opacity: 0.9;
-	 
-	 
-	 
-	 
  }
  img.i1:hover{
  -webkit-transform: scale(1.4);
@@ -193,8 +194,18 @@ img:hover{
 	 font-size:16px;
 	 
  }
- form
+ form{ float:left;}
+
+ img.test_img1
  {
-	 float:left;
-	 
+	 	opacity: 0.7;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+  img.test_img1:hover{
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+ opacity:1;
  }

@@ -48,29 +48,30 @@ div.main_d
 	width:95.5%;
 	border: solid silver 3px;
 	border-radius:1em;
-	background: rgba(0,221,255,0.6);
+	background: rgba(255,254,204,0.8);
 	
 	overflow:auto;
 }
 p
 {
-	color:rgba(50,50,50,1);
+	color:rgba(139,120,152,1);
 	font-size:1.2em;
 	text-indent: 30px;
 	font-style: italic;
-	text-shadow: 0.4px 0.4px 0.4px rgba(0,0,0,1);
+	text-shadow: 0.3px 0.3px 0.2px rgba(0,0,0,1);
+	font-family:verdana;
 }
 @media (max-width: 1023px) and (min-width: 300px)
 {
-	div.main_d{max-height:70em; margin-bottom:9em;}
-	p{font-size:0.7em;}
+	div.main_d{max-height:62em; margin-bottom:9em;}
+	p{font-size:0.6em;}
 }
 h2
 {
 	border-bottom:solid 2px #00CBFF;
 	text-align:center;
 	border-radius:0.1em;
-	color:#FFFFEE;
+	color:#5555BB;
 	text-shadow: 1px 1px 1px rgba(0,0,0,1), 5px 5px 4px rgba(0,0,0,1);
 	font-size:20px;
 	text-shadow:
