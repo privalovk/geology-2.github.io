@@ -43,8 +43,8 @@ div.main_d
 	float:left;
 	margin:1%;
 	padding:1%;
-	margin-bottom:2em;
-	height:26em;
+	margin-bottom:8em;
+	height:35em;
 	width:95.5%;
 	border: solid silver 3px;
 	border-radius:1em;
@@ -55,7 +55,7 @@ div.main_d
 p
 {
 	color:rgba(50,50,50,1);
-	font-size:15px;
+	font-size:1.1em;
 	text-indent: 30px;
 	font-style: italic;
 	text-shadow: 0.4px 0.4px 0.4px rgba(0,0,0,1);
