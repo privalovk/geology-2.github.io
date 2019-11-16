@@ -63,10 +63,17 @@ p, a
 	
 	color:rgba(139,120,152,1);
 	font-size:1em;
-	text-indent: 30px;
+	text-indent: 10px;
 	font-style: italic;
 	text-shadow: 0.3px 0.3px 0.2px rgba(0,0,0,1);
 	font-family:verdana;
+}
+p
+{
+	position:relative;
+	float:left;
+	width:90%;
+	
 }
 @media (max-width: 1023px) and (min-width: 300px)
 {
