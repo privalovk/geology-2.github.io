@@ -21,32 +21,37 @@
 			
 			<article>	
 					<center><h3><a href="s1/s1.html">Магматические</a></h3></center>
-					<p><img src="m1.jpg"/><img src="m2.jpg"/><a href="s1.html">Подробнее...</a></p>
+					<p><img onclick="location.href='s1/s1.html'" src="m1.jpg"/><img onclick="location.href='s1/s1.html'" src="m2.jpg"/><a href="s1.html">Подробнее...</a></p>
 			</article>
 			<article>	
 					<center><h3><a href="s2/s2.html">Осадочные</a></h3></center>
-					<p><img src="o1.jpg"/><img src="o2.jpg"/><a href="s2.html">Подробнее...</a></p>
+					<p><img onclick="location.href='s2/s2.html'" src="o1.jpg"/><img onclick="location.href='s2/s2.html'" src="o2.jpg"/><a href="s2.html">Подробнее...</a></p>
 			</article>
 			<article>
 				<center><h3><a href="s3/s3.html">Метаморфические</a></h3></center>
-				<p><img src="mm1.jpg"/><img src="mm2.jpg"/><a href="s3.html">Подробнее...</a></p>
+				<p><img onclick="location.href='s3/s3.html'" src="mm1.jpg"/><img onclick="location.href='s3/s3.html'" src="mm2.jpg"/><a href="s3.html">Подробнее...</a></p>
 			</article>
 			<article>
 				<center><h3><a href="test.html">Тест по горным породам</a></h3></center>
-				<p><img src="test.jpg"/></p>
+				<p><img onclick="location.href='test.html'" src="test.jpg"/></p>
 			</article>
 			<article>
 				<center><h3><a href="rand.html">рандомный камень</a></h3></center>
-				<p><img src="box.jpg"/></p>
+				<p><img onclick="location.href='rand.html'" src="box.jpg"/></p>
 			</article>
 			<article>
-				<center><h3><a href="rand.html">экзамен по геологии</a></h3></center>
-				<p><img src="stafeev.jpg"/></p>
+				<center><h3>экзамен по геологии</h3></center>
+				<p><img onclick="location.href= 'geo_exam/' + (Math.floor((document.getElementById('in_g_ex').value -1)/10)+1) + '.html'" src="stafeev.jpg"/></p>
 				<form>
 					<input type = "text" id="in_g_ex"  size="40" value="" placeholder="введите номер вопроса">
 					<input id="g_ex_b" type="button" onclick="location.href= 'geo_exam/' + (Math.floor((document.getElementById('in_g_ex').value -1)/10)+1) + '.html'" class="button"  value="go!">
 					
 				</form>
+			</article>
+			<br/>
+			<article>
+				<center><h3><a href="downloads/downloads.html">дополнительные материалы</a></h3></center>
+				<p><img onclick="location.href='downloads/downloads.html'" src="downloads.png"/></p>
 			</article>
 		</div>
 	</body>
